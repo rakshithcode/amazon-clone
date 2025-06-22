@@ -1,0 +1,142 @@
+body {
+    background: #f4f6fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-root {
+    height: 100vh;
+}
+
+.sidebar {
+    background: #3f2fa7;
+    color: #fff;
+    width: 250px;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sidebar .nav-link {
+    color: #d1d5db;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    background: #2d1e7a;
+    color: #fff;
+}
+
+.user-info {
+    background: #2d1e7a;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: auto;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.user-role {
+    color: #b3b3b3;
+    font-size: 0.85em;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 2rem;
+    background: #f4f6fa;
+    min-height: 100vh;
+}
+
+.topbar .search-bar {
+    width: 350px;
+    max-width: 100%;
+}
+
+.icon {
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+.filters .form-select,
+.filters .form-control {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 0.95em;
+}
+
+.stat-card {
+    background: #fff;
+    border: none;
+    box-shadow: 0 2px 8px rgba(60,60,100,0.06);
+    border-radius: 12px;
+}
+
+.stat-value {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #3f2fa7;
+}
+
+.doc-card {
+    background: #fff;
+    border: none;
+    box-shadow: 0 2px 8px rgba(60,60,100,0.06);
+    border-radius: 12px;
+}
+
+.doc-desc {
+    color: #6c757d;
+    font-size: 0.98em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.doc-meta {
+    color: #adb5bd;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+.doc-author {
+    margin-bottom: 0.5em;
+    font-size: 1em;
+}
+
+.badge.bg-secondary {
+    background: #6c757d !important;
+}
+
+.badge.bg-success {
+    background: #28a745 !important;
+}
+
+.badge.bg-info {
+    background: #17a2b8 !important;
+}
+
+.badge.bg-primary {
+    background: #007bff !important;
+}
+
+.badge.bg-warning {
+    background: #ffc107 !important;
+    color: #212529 !important;
+}
+
+.badge.bg-danger {
+    background: #dc3545 !important;
+}
+
+.mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
